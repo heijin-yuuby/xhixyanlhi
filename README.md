@@ -1,5 +1,5 @@
 # TOOLs
-#### 1.创建并启动docker容器（在程序目录）
+#### 1.创建并启动docker容器（在程序目录此处默认为所在文件夹名workspace）
 ```
 docker run -it --rm \
   -v $(pwd):/workspace \
